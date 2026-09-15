@@ -504,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 
-.pf-empty-desc a { color: #E43D12; font-weight: 600; }
+.pf-empty-desc a { color: #E43D12; font-weight: 700; }
 
 /* ------------------------------------------------------------
    Work package detail page (work-packages.qmd)
@@ -862,6 +862,7 @@ body:has(.pf-hero) {
    ------------------------------------------------------------ */
 
 .pf-aim { max-width: 640px; margin: 3rem auto; text-align: center; color: #E43D12; }
+.pf-aim a { color: #E43D12; font-weight: 700; }
 .pf-readmore { display: inline-block; margin-top: 0.5rem; font-weight: 600; color: #E43D12; }
 
 /* ------------------------------------------------------------
