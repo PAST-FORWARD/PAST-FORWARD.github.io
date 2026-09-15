@@ -2,7 +2,7 @@
 title: "People"
 ---
 
-# The Team
+## The Team
 
 ```{=html}
 <div class="pf-section pf-section-violet">
