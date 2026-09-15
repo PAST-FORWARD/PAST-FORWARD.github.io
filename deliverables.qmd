@@ -6,7 +6,7 @@ listing:
   sort: "date desc"
   type: default
   categories: false
-  fields: [date, title, description]
+  fields: [date, title, author, description]
   filter-ui: true
   sort-ui: false
   feed: true
