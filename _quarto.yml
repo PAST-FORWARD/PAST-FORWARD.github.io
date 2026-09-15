@@ -5,6 +5,7 @@ project:
 
 website:
   title: "PAST-FORWARD"
+  site-url: "https://PAST-FORWARD.github.io/"
   favicon: logos/pf-logo.png
   search: false
   back-to-top-navigation: false
