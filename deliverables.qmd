@@ -16,5 +16,5 @@ listing:
 Official project deliverables and milestone reports submitted to the NWO–NSFC funding programme, tracked against the project's four <a href="work-packages.qmd">Work Packages</a> and listed here as they are submitted and approved, with no limit on how many appear or how far back they go.
 :::
 
-::: {#deliverables-listing data-pf-icon="ti-clipboard-check"}
+::: {#deliverables-listing data-pf-icon="ti-clipboard-check" data-pf-empty-title="No deliverables published yet" data-pf-empty-desc="Deliverables are tracked against the project's four Work Packages and will be added here as they are submitted and approved."}
 :::

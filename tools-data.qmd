@@ -16,5 +16,5 @@ listing:
 PAST-FORWARD is building a GIS-based assessment toolbox and a web-based Decision Support System (DSS) to support data-driven, participatory adaptation planning — developed as part of <a href="work-packages.qmd#wp2">WP2</a>. Releases are listed here as they become available, with no limit on how many appear or how far back they go.
 :::
 
-::: {#tools-data-listing data-pf-icon="ti-tool"}
+::: {#tools-data-listing data-pf-icon="ti-tool" data-pf-empty-title="Tools in development" data-pf-empty-desc="The GIS toolbox and the R/Shiny-based DSS are under active development. A link to the live tool will be published here once available."}
 :::
