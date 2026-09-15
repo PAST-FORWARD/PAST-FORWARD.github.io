@@ -56,11 +56,32 @@
     "text": "Questions about PAST-FORWARD, the living labs, or collaboration opportunities? Reach out to the project team below.\n\n\n  \n  Contact details coming soon\n  In the meantime, see the People page for the project's leads at each consortium partner, or visit the partner institutions linked in the footer below.\n  View the team →"
   },
   {
-    "objectID": "cities.html",
-    "href": "cities.html",
+    "objectID": "cities.html#delft",
+    "href": "cities.html#delft",
     "title": "cities",
-    "section": "",
-    "text": "Delft\n\n\nRotterdam\n\n\nXi’An\n\n\nGuangzhou"
+    "section": "Delft",
+    "text": "Delft"
+  },
+  {
+    "objectID": "cities.html#rotterdam",
+    "href": "cities.html#rotterdam",
+    "title": "cities",
+    "section": "Rotterdam",
+    "text": "Rotterdam"
+  },
+  {
+    "objectID": "cities.html#xian",
+    "href": "cities.html#xian",
+    "title": "cities",
+    "section": "Xi’An",
+    "text": "Xi’An"
+  },
+  {
+    "objectID": "cities.html#guangzhou",
+    "href": "cities.html#guangzhou",
+    "title": "cities",
+    "section": "Guangzhou",
+    "text": "Guangzhou"
   },
   {
     "objectID": "research.html#latest-research-outputs",
@@ -98,11 +119,32 @@
     "text": "The Consortium"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about.html#the-project",
+    "href": "about.html#the-project",
     "title": "About",
-    "section": "",
-    "text": "The Project\nPAST-FORWARD aims to develop and implement innovative climate adaptation strategies and a design support system for adaptive Historic Urban Landscape (HUL) planning while integrating geospatial analysis, participatory planning, and adaptive urban landscape design.\nBy leveraging living labs in the historic cities of Delft and Rotterdam (NL) and Xi’an and Guangzhou (CN), the project will test innovative approaches to resilience and future-oriented urban development.\nPAST-FORWARD ensures that adaptation strategies are socially inclusive, technically robust, and policy-relevant through stakeholder-driven co-design.\nPAST-FORWARD integrates work in China and the Netherlands to:\n\nDevelop a portfolio of adaptive design strategies for socio-ecologically inclusive, climate-proof HULs;\nCreate advanced open digital tools to inform, drive, and monitor these strategies, facilitating co-creative and participatory design processes;\nValidate and implement these strategies through pilot projects serving as living labs, balancing immediate actions with long-term perspectives;\nProvide regulatory recommendations to promote climate adaptation within governance frameworks.\n\n\n\nThe Cities\n\nWhere we work\n\n\n\n\n\n\n\n\n\n\n  \n    \n      \n    \n    \n      Netherlands\n      Delft\n      \n        Flooding\n        Sea level rise\n        Medieval canals\n      \n      Historic canal network and aging infrastructure face increasing pluvial flood risk and the challenge of climate retrofitting without compromising architectural integrity.\n    \n  \n\n  \n    \n      \n    \n    \n      Netherlands\n      Rotterdam\n      \n        Flood resilience\n        Social equity\n        Post-war districts\n      \n      A global leader in climate adaptation, Rotterdam's historic districts test the integration of climate-proof solutions with socio-spatial equity challenges.\n    \n  \n\n  \n    \n      \n    \n    \n      China\n      Xi'an\n      \n        Urban sprawl\n        Flooding\n        Ancient walls\n      \n      Home to the Terracotta Army and ancient city walls, Xi'an faces rapid urbanization pressure alongside flooding risk, requiring adaptation without cultural erosion.\n    \n  \n\n  \n    \n      \n    \n    \n      China\n      Guangzhou\n      \n        Typhoons\n        Sea level rise\n        Pearl River Delta\n      \n      Located in the Pearl River Delta, Guangzhou's historic waterfront districts face typhoon-induced flooding and social inequalities in climate resilience access.\n    \n  \n\n\n\n\n\nWork Packages\nPAST-FORWARD is structured around four interconnected Work Packages (WPs), each addressing key research gaps in adapting Historic Urban Landscapes to climate change.\n\n\n  \n    WP1\n    Framework Development & Integration\n    TU Delft & SCUT\n    A shared framework and methodology that merges climate resilience with heritage preservation across the Dutch and Chinese case studies.\n  \n\n  \n    WP2\n    Data-Driven Adaptation Planning\n    TU Delft & SCUT\n    A digital atlas, GIS-based toolkit, and web-based Decision Support System to inform and monitor adaptation planning.\n  \n\n  \n    WP3\n    Adaptive Design Principles\n    XAUAT & TU Delft\n    Context-specific, heritage-sensitive design principles and strategies, validated through pilot projects in the living labs.\n  \n\n  \n    WP4\n    Regulatory Framework & Stakeholder Engagement\n    Erasmus School of Law & SCUT\n    Regulatory analysis and participatory co-design to embed climate adaptation into governance frameworks.\n  \n\n\n\n\nThe Consortium\n\n\n  \n    \n    \n      TU Delft\n      Delft University of Technology\n      Lead applicant (NL) · WP1, WP2, WP3\n    \n  \n\n  \n    \n    \n      SCUT\n      South China University of Technology\n      Lead applicant (CN) · WP1, WP2, WP4\n    \n  \n\n  \n    \n    \n      XAUAT\n      Xi'an University of Architecture and Technology\n      Co-applicant (CN) · WP3\n    \n  \n\n  \n    \n    \n      Erasmus School of Law\n      Erasmus University Rotterdam\n      Co-applicant (NL) · WP4\n    \n  \n\n  \n    \n    \n      OKRA\n      OKRA Landscape Architects\n      Collaboration partner (NL) · WP3\n    \n  \n\n  \n    \n    \n      GDUPI\n      Guangdong Urban-Rural Planning and Design Research Institute\n      Collaboration partner (CN) · WP2, WP3"
+    "section": "The Project",
+    "text": "The Project\nPAST-FORWARD aims to develop and implement innovative climate adaptation strategies and a design support system for adaptive Historic Urban Landscape (HUL) planning while integrating geospatial analysis, participatory planning, and adaptive urban landscape design.\nBy leveraging living labs in the historic cities of Delft and Rotterdam (NL) and Xi’an and Guangzhou (CN), the project will test innovative approaches to resilience and future-oriented urban development.\nPAST-FORWARD ensures that adaptation strategies are socially inclusive, technically robust, and policy-relevant through stakeholder-driven co-design.\nPAST-FORWARD integrates work in China and the Netherlands to:\n\nDevelop a portfolio of adaptive design strategies for socio-ecologically inclusive, climate-proof HULs;\nCreate advanced open digital tools to inform, drive, and monitor these strategies, facilitating co-creative and participatory design processes;\nValidate and implement these strategies through pilot projects serving as living labs, balancing immediate actions with long-term perspectives;\nProvide regulatory recommendations to promote climate adaptation within governance frameworks."
+  },
+  {
+    "objectID": "about.html#the-cities",
+    "href": "about.html#the-cities",
+    "title": "About",
+    "section": "The Cities",
+    "text": "The Cities\n\nWhere we work\n\n\n\n\n\n\n\n\n\n\n  \n    \n      \n    \n    \n      Netherlands\n      Delft\n      \n        Flooding\n        Sea level rise\n        Medieval canals\n      \n      Historic canal network and aging infrastructure face increasing pluvial flood risk and the challenge of climate retrofitting without compromising architectural integrity.\n    \n  \n\n  \n    \n      \n    \n    \n      Netherlands\n      Rotterdam\n      \n        Flood resilience\n        Social equity\n        Post-war districts\n      \n      A global leader in climate adaptation, Rotterdam's historic districts test the integration of climate-proof solutions with socio-spatial equity challenges.\n    \n  \n\n  \n    \n      \n    \n    \n      China\n      Xi'an\n      \n        Urban sprawl\n        Flooding\n        Ancient walls\n      \n      Home to the Terracotta Army and ancient city walls, Xi'an faces rapid urbanization pressure alongside flooding risk, requiring adaptation without cultural erosion.\n    \n  \n\n  \n    \n      \n    \n    \n      China\n      Guangzhou\n      \n        Typhoons\n        Sea level rise\n        Pearl River Delta\n      \n      Located in the Pearl River Delta, Guangzhou's historic waterfront districts face typhoon-induced flooding and social inequalities in climate resilience access."
+  },
+  {
+    "objectID": "about.html#work-packages",
+    "href": "about.html#work-packages",
+    "title": "About",
+    "section": "Work Packages",
+    "text": "Work Packages\nPAST-FORWARD is structured around four interconnected Work Packages (WPs), each addressing key research gaps in adapting Historic Urban Landscapes to climate change.\n\n\n  \n    WP1\n    Framework Development & Integration\n    TU Delft & SCUT\n    A shared framework and methodology that merges climate resilience with heritage preservation across the Dutch and Chinese case studies.\n  \n\n  \n    WP2\n    Data-Driven Adaptation Planning\n    TU Delft & SCUT\n    A digital atlas, GIS-based toolkit, and web-based Decision Support System to inform and monitor adaptation planning.\n  \n\n  \n    WP3\n    Adaptive Design Principles\n    XAUAT & TU Delft\n    Context-specific, heritage-sensitive design principles and strategies, validated through pilot projects in the living labs.\n  \n\n  \n    WP4\n    Regulatory Framework & Stakeholder Engagement\n    Erasmus School of Law & SCUT\n    Regulatory analysis and participatory co-design to embed climate adaptation into governance frameworks."
+  },
+  {
+    "objectID": "about.html#the-consortium",
+    "href": "about.html#the-consortium",
+    "title": "About",
+    "section": "The Consortium",
+    "text": "The Consortium\n\n\n  \n    \n    \n      TU Delft\n      Delft University of Technology\n      Lead applicant (NL) · WP1, WP2, WP3\n    \n  \n\n  \n    \n    \n      SCUT\n      South China University of Technology\n      Lead applicant (CN) · WP1, WP2, WP4\n    \n  \n\n  \n    \n    \n      XAUAT\n      Xi'an University of Architecture and Technology\n      Co-applicant (CN) · WP3\n    \n  \n\n  \n    \n    \n      Erasmus School of Law\n      Erasmus University Rotterdam\n      Co-applicant (NL) · WP4\n    \n  \n\n  \n    \n    \n      OKRA\n      OKRA Landscape Architects\n      Collaboration partner (NL) · WP3\n    \n  \n\n  \n    \n    \n      GDUPI\n      Guangdong Urban-Rural Planning and Design Research Institute\n      Collaboration partner (CN) · WP2, WP3"
   },
   {
     "objectID": "work-packages.html",

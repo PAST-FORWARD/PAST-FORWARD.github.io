@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {
   font-synthesis: none;
   letter-spacing: 0.01em;
   text-transform: uppercase;
+  border-color: #E43D12;
+  border-block-width: 1;
+  margin-top: 5rem;
 }
 
 /* box-level titles (cards, pillars, listings) share the heading font
@@ -255,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #E43D12;
   margin: 1.5rem 0 8px;
   padding-bottom: 6px;
-  border-bottom: 1px solid rgba(120,116,108,0.3);
+  border-bottom: none;
 }
 
 .pf-section-label:first-child {
@@ -923,10 +926,10 @@ body:has(.pf-hero) {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.75rem;
   flex-wrap: wrap;
   padding: 1.5rem 0;
-  border-top: 1px solid rgba(120,116,108,0.3);
+  border-top: none;
   margin-top: 2rem;
   font-size: 0.8rem;
   color: #E43D12;
@@ -945,10 +948,14 @@ body:has(.pf-hero) {
 }
 
 .pf-partners img {
-  height: 32px;
+  height: 56px;
   width: auto;
-  max-width: 100px;
+  max-width: 240px;
   object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .pf-partners img { height: 44px; max-width: 180px; }
 }
 
 /* ------------------------------------------------------------
@@ -1170,3 +1177,4 @@ body:has(.pf-hero) {
 .leaflet-popup-close-button {
   color: #E43D12 !important;
 }
+
