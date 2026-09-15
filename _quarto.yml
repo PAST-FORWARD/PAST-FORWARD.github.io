@@ -2,11 +2,12 @@ project:
   type: website
   resources:
     - "images/*"
+    - "favicon/*"
 
 website:
   title: "PAST-FORWARD"
   site-url: "https://PAST-FORWARD.github.io/"
-  favicon: logos/pf-logo.png
+  favicon: favicon.ico
   search: false
   back-to-top-navigation: false
   page-navigation: false
@@ -56,6 +57,10 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Gothic+Expanded+One&display=swap">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="manifest" href="/site.webmanifest">
         <script src="/pf-listing.js" defer></script>
 
 editor: visual
