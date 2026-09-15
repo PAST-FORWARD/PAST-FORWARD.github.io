@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #E43D12 !important;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   /* Free up space for the brand name by dropping the redundant logo
      mark next to it (the hamburger + wordmark are enough to identify
      the site at this width). */
@@ -141,9 +141,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .navbar-brand {
-    font-size: 16px !important;
+    font-size: 15px !important;
     letter-spacing: 0 !important;
     padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 360px) {
+  /* Narrowest phones (iPhone SE, older/small Android): shrink further
+     so the full wordmark still fits without an ellipsis truncation. */
+  .navbar-brand {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 330px) {
+  /* Oldest/smallest phones still in the wild (e.g. iPhone 5/SE 1st gen). */
+  .navbar-brand {
+    font-size: 11px !important;
   }
 }
 
