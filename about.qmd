@@ -32,6 +32,8 @@ Where we work
 #| warning: false
 
 library(leaflet)
+library(rnaturalearth)
+library(sf)
 
 cities <- data.frame(
   name = c("Delft", "Rotterdam", "Xi'an", "Guangzhou"),
@@ -46,19 +48,36 @@ cities$popup <- paste0(
   "<a href='", cities$anchor, "'>View living lab &rarr;</a>"
 )
 
-leaflet(cities, width = "100%", height = "420px") |>
+# highlight the Netherlands and China via Natural Earth country boundaries
+countries <- ne_countries(scale = "medium", returnclass = "sf")
+highlight_countries <- countries[countries$iso_a3 %in% c("NLD", "CHN"), ]
+
+leaflet(
+  cities, width = "100%", height = "420px",
+  options = leafletOptions(minZoom = 3, maxZoom = 14)
+) |>
   addProviderTiles(providers$CartoDB.Positron) |>
+  addPolygons(
+    data = highlight_countries,
+    fillColor = "#E43D12",
+    fillOpacity = 0.15,
+    color = "#E43D12",
+    weight = 1,
+    opacity = 0.6
+  ) |>
   addCircleMarkers(
     lng = ~lng, lat = ~lat,
     popup = ~popup,
     label = ~name,
     radius = 8,
-    color = "#0F6E56",
-    fillColor = "#1D9E75",
+    color = "#E43D12",
+    fillColor = "#EBE9E1",
     fillOpacity = 0.9,
-    weight = 2
+    weight = 2,
+    clusterOptions = markerClusterOptions()
   ) |>
-  fitBounds(min(cities$lng), min(cities$lat), max(cities$lng), max(cities$lat))
+  fitBounds(min(cities$lng), min(cities$lat), max(cities$lng), max(cities$lat)) |>
+  setMaxBounds(lng1 = -180, lat1 = -85, lng2 = 180, lat2 = 85)
 ```
 
 ```{=html}
