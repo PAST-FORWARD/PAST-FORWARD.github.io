@@ -218,6 +218,14 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.85;
 }
 
+.nav-footer-center a:not(:last-child)::after {
+  content: "•";
+  margin-left: 10px;
+  color: #EBE9E1;
+  opacity: 0.6;
+  font-weight: 700;
+}
+
 #title-block-header,
 .quarto-title-block {
   display: none !important;
@@ -851,9 +859,9 @@ body:has(.pf-hero) {
 
 .pf-hero-content { position: relative; z-index: 1; color: #EBE9E1; text-align: center; max-width: 620px; padding: 0 24px; }
 .pf-hero-logo { display: block; height: 72px; width: auto; margin: 0 auto 1.25rem; }
-.pf-hero-eyebrow { font-size: 0.8rem; letter-spacing: 0.04em; opacity: 0.9; margin-bottom: 0.5rem; color: #EBE9E1; }
+.pf-hero-eyebrow { font-family: 'Special Gothic Expanded One', sans-serif; font-size: 0.8rem; letter-spacing: 0.04em; opacity: 0.9; margin-bottom: 0.5rem; color: #EBE9E1; }
 .pf-hero-title { font-family: 'Special Gothic Expanded One', sans-serif; font-size: 2.4rem; margin: 0 0 0.5rem; color: #E43D12; font-weight: 400; }
-.pf-hero-subtitle { font-size: 1rem; opacity: 0.9; margin-bottom: 1.5rem; color: #EBE9E1; }
+.pf-hero-subtitle { font-family: 'Special Gothic Expanded One', sans-serif; font-size: 6rem; opacity: 0.9; margin-bottom: 1.5rem; color: #EBE9E1; }
 
 @media (prefers-reduced-motion: reduce) {
   .pf-hero-bg-img { animation: none; opacity: 0; }
@@ -954,8 +962,17 @@ body:has(.pf-hero) {
   object-fit: contain;
 }
 
+/* OKRA's wordmark has no internal padding around its letterforms (unlike
+   e.g. TU Delft's, which shares its box with a small icon above the text),
+   so at the same box height its letters render visibly larger than every
+   other logo. Scale it down to match TU Delft's actual text size. */
+.pf-partners img.pf-logo-okra {
+  height: 34px;
+}
+
 @media (max-width: 700px) {
   .pf-partners img { height: 44px; max-width: 180px; }
+  .pf-partners img.pf-logo-okra { height: 27px; }
 }
 
 /* ------------------------------------------------------------
