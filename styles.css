@@ -988,13 +988,31 @@ body:has(.pf-hero) {
   letter-spacing: 0.02em;
 }
 
+.quarto-post .metadata .listing-author {
+  color: #E43D12;
+  font-family: 'Archivo', sans-serif;
+  font-size: 11px;
+  opacity: 0.75;
+  margin-top: 4px;
+}
+
 .quarto-post .listing-item-img-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 90px;
+  aspect-ratio: 1;
+  width: 100%;
   background: transparent;
   border: 1px solid #E43D12;
+}
+
+/* Bootstrap's `.list.quarto-listing-default div:last-of-type` rule
+   (meant to drop the trailing divider on the last list row) also
+   matches this placeholder, since it's the only/last div inside its
+   parent, and zeroes out its border-bottom. Win the specificity fight
+   to keep the box fully bordered on all four sides. */
+.list.quarto-listing-default .quarto-post .listing-item-img-placeholder {
+  border-bottom: 1px solid #E43D12;
 }
 
 .pf-listing-icon {
@@ -1008,7 +1026,7 @@ body:has(.pf-hero) {
      (after title/description/date); put the category icon first instead
      and shrink it, since it's a small glyph rather than a photo. */
   .quarto-post .thumbnail { order: -1; }
-  .quarto-post .listing-item-img-placeholder { min-height: 56px; }
+  .quarto-post .listing-item-img-placeholder { aspect-ratio: 16 / 9; }
   .pf-listing-icon { font-size: 22px; }
 }
 
@@ -1079,6 +1097,12 @@ body:has(.pf-hero) {
 .quarto-listing-category .quarto-category-count {
   color: rgba(228, 61, 18, 0.55);
   font-weight: 400;
+}
+
+/* space out the category tags from the title above them */
+.quarto-post .listing-categories {
+  margin-top: 8px;
+  margin-bottom: 4px;
 }
 
 /* inline category tags shown on each listing card */
