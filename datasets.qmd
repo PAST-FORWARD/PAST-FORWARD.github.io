@@ -1,0 +1,20 @@
+---
+title: "Datasets"
+listing:
+  id: datasets-listing
+  contents: research-outputs/datasets
+  sort: "date desc"
+  type: default
+  categories: false
+  fields: [date, title, description]
+  filter-ui: true
+  sort-ui: false
+  feed: true
+---
+
+::: pf-aim
+Open, FAIR datasets produced by PAST-FORWARD — including the WP2 Digital Atlas of climate vulnerabilities and spatial opportunities — published here as they become available, with no limit on how many appear or how far back they go.
+:::
+
+::: {#datasets-listing data-pf-icon="ti-database"}
+:::

@@ -1,0 +1,11 @@
+---
+title: "Kick-off meeting in Delft"
+description: "The PAST-FORWARD consortium met for the first time in Delft to align objectives and launch the four living labs."
+date: 2026-02-15
+author:
+  - name: Daniele Cannatella
+    affiliation: TU Delft
+categories: [consortium, events, WP1]
+image: kick-off.jpg          # relative to this post's folder
+draft: false
+---

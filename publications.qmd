@@ -1,0 +1,20 @@
+---
+title: "Publications"
+listing:
+  id: publications-listing
+  contents: research-outputs/publications
+  sort: "date desc"
+  type: default
+  categories: false
+  fields: [date, title, description]
+  filter-ui: true
+  sort-ui: false
+  feed: true
+---
+
+::: pf-aim
+Peer-reviewed papers, conference contributions, and reports produced by the PAST-FORWARD consortium, listed here as they are published — with no limit on how many appear or how far back they go.
+:::
+
+::: {#publications-listing data-pf-icon="ti-books"}
+:::

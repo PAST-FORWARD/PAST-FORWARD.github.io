@@ -1,0 +1,13 @@
+---
+title: "News"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+  fields: [date, title, description, categories, image]
+  filter-ui: true          # adds a search bar
+  sort-ui: false
+page-layout: full
+---

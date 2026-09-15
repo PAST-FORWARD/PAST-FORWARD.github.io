@@ -1,0 +1,16 @@
+---
+title: "GIS assessment toolbox — first prototype"
+description: "Early prototype of the GIS-based assessment toolbox feeding into the web-based Decision Support System (DSS) developed in WP2."
+date: 2026-07-01
+author:
+  - name: WP2 team
+    affiliation: PAST-FORWARD consortium
+categories: [Tools & Data]
+draft: false
+---
+
+::: {.callout-note}
+Placeholder entry used to preview the "Latest research outputs" listing on the Research page. Replace with a link to the live tool when available.
+:::
+
+Tool description and access link go here once the prototype is public.

@@ -1,0 +1,16 @@
+---
+title: "WP2 Digital Atlas — pilot release"
+description: "First pilot version of the open Digital Atlas mapping climate vulnerabilities and spatial adaptation opportunities in the living labs."
+date: 2026-05-20
+author:
+  - name: WP2 team
+    affiliation: PAST-FORWARD consortium
+categories: [Datasets]
+draft: false
+---
+
+::: {.callout-note}
+Placeholder entry used to preview the "Latest research outputs" listing on the Research page. Replace with the real dataset release when available.
+:::
+
+Dataset description, access link, and licence information go here once released.

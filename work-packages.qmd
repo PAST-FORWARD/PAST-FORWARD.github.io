@@ -1,0 +1,193 @@
+---
+title: "Work Packages"
+page-layout: full
+---
+
+::: {.pf-aim}
+PAST-FORWARD is structured around four interconnected Work Packages (WPs), each addressing key research gaps in adapting Historic Urban Landscapes to climate change.
+:::
+
+```{=html}
+<div class="pf-wp-nav">
+  <a href="#wp1">WP1 &middot; Framework</a>
+  <a href="#wp2">WP2 &middot; Data &amp; Planning</a>
+  <a href="#wp3">WP3 &middot; Design Principles</a>
+  <a href="#wp4">WP4 &middot; Regulation &amp; Engagement</a>
+</div>
+```
+
+::: {.pf-wp-section}
+```{=html}
+<div class="pf-wp-head" id="wp1">
+  <span class="pf-wp-badge">WP1</span>
+  <div>
+    <h2 class="pf-wp-heading">PAST-FORWARD Framework Development and Integration</h2>
+    <p class="pf-wp-leadline">Lead: TU Delft &amp; SCUT</p>
+  </div>
+</div>
+```
+
+::: {.pf-wp-body}
+This WP addresses the lack of systemic integration in climate adaptation and heritage preservation for Historic Urban Landscapes (HULs). This work package aims to create a robust, adaptable framework that merges climate resilience with heritage preservation for Historic Urban Landscapes. It will establish a methodology for comparing Dutch and Chinese case studies, ensuring data is accessible and research is transparent. Finally, it will focus on sharing knowledge and engaging stakeholders to promote wider application of the framework.
+:::
+
+:::: {.pf-wp-columns}
+::: {.pf-wp-col}
+**Key activities**
+
+- Developing the PAST-FORWARD Framework
+  - Formulating a structured methodology that integrates spatial planning, heritage conservation, risk and environmental modelling, social inclusion, and governance.
+  - Ensuring scalability and replicability of the framework for broader application beyond the case studies.
+- Comparative Case Study Analysis
+  - Establishing a methodological framework for cross-case comparisons.
+  - Identifying key lessons from existing climate adaptation and heritage preservation strategies in both case studies.
+- Ensuring Data Accessibility and Research Transparency
+  - Developing and maintaining a Data Management Plan to standardize data handling.
+  - Ensuring research outputs adhere to FAIR principles (Findable, Accessible, Interoperable, and Reusable).
+  - Storing open-access datasets in public repositories.
+- Facilitating Knowledge Dissemination and Stakeholder Engagement
+  - Developing a Publication and Dissemination Plan to structure academic and professional outreach.
+  - Defining strategic recommendations and guiding principles for cities facing similar climate challenges.
+:::
+
+::: {.pf-wp-col}
+**Key deliverables**
+
+- PAST-FORWARD Adaptation Framework: a replicable approach integrating climate resilience and heritage preservation in HULs.
+- Structured Methodology for Data-Driven Planning: informing adaptive design strategies and stakeholder engagement.
+- Comparative Case Study Findings: identifying best practices for climate adaptation in HULs.
+- Data Management Plan: ensuring transparency, standardization, and accessibility.
+- Publication and Dissemination Plan: structuring outreach and engagement efforts.
+- Open-Access Data Publication: ensuring research outputs are publicly available.
+:::
+::::
+:::
+
+::: {.pf-wp-section}
+```{=html}
+<div class="pf-wp-head" id="wp2">
+  <span class="pf-wp-badge">WP2</span>
+  <div>
+    <h2 class="pf-wp-heading">Data-Driven Adaptation Planning</h2>
+    <p class="pf-wp-leadline">Lead: Dr. Cannatella, TUD &amp; Prof. Chengfang Wang, SCUT</p>
+  </div>
+</div>
+```
+
+::: {.pf-wp-body}
+This WP tackles the disconnect in planning data by developing the data-driven knowledge and digital tools necessary to support HULs in adapting to climate change. The objective here is to develop a comprehensive digital atlas highlighting climate vulnerabilities and spatial opportunities. A GIS-based toolkit will be created to assess risks like flooding and urban heat islands, alongside social vulnerabilities. A user-friendly, web-based Decision Support System will be built to facilitate data-driven planning. Lastly, scenario planning and vulnerability assessments will be conducted to inform strategic recommendations.
+:::
+
+:::: {.pf-wp-columns}
+::: {.pf-wp-col}
+**Key activities**
+
+- Development of a Digital Atlas for Climate Vulnerabilities
+  - Collecting and integrating climatic, environmental, urban, and socio-economic data.
+  - Mapping flood risk, drought risk, heat stress, and ecological connectivity to establish a baseline scenario.
+  - Analysing social vulnerability and accessibility to green space to support equitable adaptation strategies.
+- Development of a GIS-Based Assessment Toolbox
+  - Creating analytical models for flood risk, urban heat island (UHI), and ecological connectivity.
+  - Establishing a data-driven assessment framework to validate the outcomes of WP3.
+  - Conducting spatial analysis to identify adaptation opportunities and assess the effectiveness of nature-based solutions.
+- Design Support System (DSS) Development
+  - Developing a web-based DSS using R and Shiny, providing an accessible, interactive interface for visualizing spatial patterns and adaptation measures, assessing the impacts of climate projections, evaluating trade-offs between adaptation strategies, and exploring social equity implications in planning decisions.
+  - Incorporating user input from WP4 to refine functionalities and ensure usability.
+- Modeling, Assessment, and Validation
+  - Conducting scenario planning to assess resilience under different climate projections.
+  - Utilizing hydrological models to analyze flooding risks and drought impacts.
+  - Evaluating the role of green infrastructure in mitigating climate risks and enhancing connectivity.
+:::
+
+::: {.pf-wp-col}
+**Key deliverables**
+
+- Digital Atlas of Climate Vulnerabilities and Spatial Opportunities: a comprehensive mapping of risks and adaptation potential.
+- GIS-Based Toolkit: a suite of spatial analysis models for assessing flood risk, UHI, ecological connectivity, and social vulnerability.
+- Functional, Web-Based DSS: a user-friendly decision-support tool to facilitate data-driven climate adaptation planning.
+- Reports on Scenario Planning and Vulnerability Assessments: summarizing findings, insights, and strategic recommendations.
+:::
+::::
+:::
+
+::: {.pf-wp-section}
+```{=html}
+<div class="pf-wp-head" id="wp3">
+  <span class="pf-wp-badge">WP3</span>
+  <div>
+    <h2 class="pf-wp-heading">Adaptive Design Principles Development and Implementation</h2>
+    <p class="pf-wp-leadline">Lead: Prof. Liu, XAUAT &amp; Dr. Cannatella, TUD</p>
+  </div>
+</div>
+```
+
+::: {.pf-wp-body}
+This WP aims to resolve the inherent tension between heritage conservation and climate adaptation by developing context-specific spatial design principles and strategies for the four case studies. It will establish a comprehensive, full-cycle adaptive design knowledge system that integrates historical urbanization patterns with innovative climate adaptation strategies, ensuring that interventions enhance resilience while preserving cultural heritage. This will be achieved by developing a systematic framework of adaptive design principles, formulating integrated methodologies that combine green infrastructure with heritage-sensitive retrofitting, establishing quantitative methods for assessing trade-offs between adaptation and cultural landscape integrity, and developing neighbourhood-scale strategies through design-based research. The resulting framework, strategy repository, technical guidelines, and verification mechanism will provide a robust methodology for strengthening climate resilience in HULs.
+
+By integrating quantitative spatial performance assessments and pilot project validation, WP3 will generate evidence-based, scalable adaptation solutions that inform urban planners, designers, and policymakers in creating climate-resilient and heritage-sensitive adaptation pathways for HULs.
+:::
+
+:::: {.pf-wp-columns}
+::: {.pf-wp-col}
+**Key activities**
+
+- Developing an Adaptive Design Principle Framework — defining adaptive design principles for HULs, clarifying objectives, methodologies, and implementation pathways.
+- Perform Policy Analysis — analyse existing policies to assess their effectiveness and identify potential barriers to implementing adaptive design strategies.
+- Compiling a Strategy Repository — developing a catalogue of climate-adaptive design strategies, incorporating green infrastructure, building retrofitting, and public space optimization, tailored to local climate risks and socio-environmental conditions.
+- Establishing Technical Guidelines — creating heritage-sensitive adaptive design guidelines, proposing material, morphological, and functional interventions to balance climate resilience and cultural preservation.
+- Validating Strategies through Pilot Projects — testing and refining adaptive design strategies through Living Labs, assessing their effectiveness in enhancing the climate resilience of HULs.
+:::
+
+::: {.pf-wp-col}
+**Key deliverables**
+
+- Framework of Adaptive Design Principles for HULs.
+- Repository of Climate-Adaptive Design Strategies, integrating green infrastructure, building retrofitting, public space optimization, and heritage conservation approaches.
+- Heritage-Conservation-Oriented Adaptive Design Guidelines, ensuring climate adaptation measures align with cultural preservation.
+- Validation Reports, documenting resilience enhancement effects in pilot areas and providing evidence-based, scalable adaptation solutions.
+:::
+::::
+:::
+
+::: {.pf-wp-section}
+```{=html}
+<div class="pf-wp-head" id="wp4">
+  <span class="pf-wp-badge">WP4</span>
+  <div>
+    <h2 class="pf-wp-heading">Regulatory Framework and Stakeholder Engagement</h2>
+    <p class="pf-wp-leadline">Lead: Prof. Reins, ESL &amp; Prof. Minzhi Li, SCUT</p>
+  </div>
+</div>
+```
+
+::: {.pf-wp-body}
+This WP focuses on analysing regulatory frameworks and participatory mechanisms to enhance climate adaptation in HULs. By embedding collaborative design throughout the project, this WP ensures that adaptation strategies are responsive to community needs and regulatory requirements and empower key stakeholders. WP4 integrates regulatory analysis with participatory co-design methodologies, bridging the gap between multi-level governance structures and place-based adaptation needs. Through iterative legal-institutional mapping, regulatory analysis, stakeholder-driven scenario testing, and policy impact simulations, WP4 systematically translates socio-ecological trade-offs into actionable governance frameworks. WP4 will identify regulatory challenges and opportunities for integrating heritage conservation and climate adaptation, analyse the role of EU/national regulations in enabling resilient governance, develop regulatory and policy recommendations for adaptation-oriented governance models, and strengthen stakeholder engagement through collaboration, knowledge exchange, and participatory decision-making.
+:::
+
+:::: {.pf-wp-columns}
+::: {.pf-wp-col}
+**Key activities**
+
+- Stakeholder Mapping: identify and analyse key stakeholders, their roles, interests, and levels of influence in urban adaptation planning.
+- Conceptual framing and analysis of regulatory problems/opportunities: this initial focus on wider regulatory problems/opportunities instead of on specific legislative instruments allows a more holistic perspective on the preservation and adaptation of spatial transformations toward future-oriented resilience, without being bound to predefined legislative approaches. Preliminary findings from the desk research are then verified through co-design workshops, analysed, and fine-tuned.
+- Co-Design Workshops: organize interactive workshops in local living labs and consortium meetings to collaboratively refine the urban adaptation framework, integrating local knowledge and expertise.
+- Participatory Engagement & Feedback Sessions: conduct structured feedback sessions with stakeholders to iteratively improve strategies and tools.
+- Integration of Stakeholder Insights: translate stakeholder input into regulatory recommendations, refining the DSS developed in WP2.
+:::
+
+::: {.pf-wp-col}
+**Key deliverables**
+
+- Stakeholder Mapping Report: identifying six stakeholder groups (municipal agencies, heritage NGOs, academic institutions, community representatives, utility providers, tourism operators) and mapping their resource dependencies and decision-making structures.
+- Co-Design Workshops: organizing four quarterly hybrid workshops (2 online, 2 onsite) with 15–30 participants per session, co-developing modular adaptation toolkits that integrate climate change adaptation and heritage conservation.
+- Participatory Engagement & Feedback Sessions: implementing monthly online feedback loops via a dedicated platform, gathering 150+ stakeholder evaluations on policy and strategy effectiveness, with priority issues escalated to focus group discussions (6 sessions/year).
+- Regulatory Recommendations: based on the conceptual framing and analysis of the regulatory problems and opportunities, developing recommendations on how to facilitate the preservation and adaptation of spatial transformations.
+:::
+::::
+:::
+
+```{=html}
+<div class="pf-wp-footer">
+  <a class="pf-btn pf-btn-outline" href="about.qmd">&larr; Back to About</a>
+</div>
+```

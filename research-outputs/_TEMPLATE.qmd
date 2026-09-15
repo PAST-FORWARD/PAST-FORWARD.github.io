@@ -1,0 +1,35 @@
+---
+title: "Output title"
+description: "One or two sentence summary of the output."
+date: 2026-01-01
+author:
+  - name: Author Name
+    affiliation: Institution
+categories: [Publications]   # must match the subfolder: Publications, Datasets, Tools & Data, Deliverables
+image: cover.jpg             # optional, relative to this file
+draft: true                  # set to false (or remove) to publish
+---
+
+<!--
+HOW TO ADD A NEW RESEARCH OUTPUT
+=================================
+1. Copy this file into the matching subfolder of research-outputs/:
+     research-outputs/publications/   -> categories: [Publications]
+     research-outputs/datasets/       -> categories: [Datasets]
+     research-outputs/tools-data/     -> categories: [Tools & Data]
+     research-outputs/deliverables/   -> categories: [Deliverables]
+   e.g. research-outputs/publications/my-paper.qmd
+   (or research-outputs/publications/my-paper/index.qmd if it needs its own
+   image/assets folder).
+2. Fill in the front matter above and set draft: false.
+3. Write the full description / details below (optional — shown when the
+   item's title is clicked).
+4. Re-render the site. The card appears automatically in:
+   - the unified "Latest research outputs" list on the Research page
+     (research.qmd), and
+   - the category-specific list on its own page (publications.qmd,
+     datasets.qmd, tools-data.qmd, or deliverables.qmd) —
+   both sorted by date, with no limit on how many are shown or how old they are.
+-->
+
+Full details about this research output go here.

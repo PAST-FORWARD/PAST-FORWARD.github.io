@@ -1,0 +1,12 @@
+.DS_Store
+
+# Quarto build output / cache
+/.quarto/
+/_site/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Rdata
+*.Rproj.bak

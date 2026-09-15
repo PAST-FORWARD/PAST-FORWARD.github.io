@@ -1,0 +1,60 @@
+project:
+  type: website
+  resources:
+    - "images/*"
+
+website:
+  title: "PAST-FORWARD"
+  favicon: logos/pf-logo.png
+  search: false
+  back-to-top-navigation: false
+  page-navigation: false
+
+  navbar:
+    pinned: true
+    logo: logos/pf-logo.png
+    logo-alt: "PAST-FORWARD logo"
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: people.qmd
+        text: People
+      - href: research.qmd
+        text: Research
+      - href: cities.qmd
+        text: Cities
+      - href: contact.qmd
+        text: Contact us
+    right:
+      - text: "News"
+        href: news.qmd
+  
+  page-footer:
+    left: "© 2026 PAST-FORWARD · Co-funded by NWO and NSFC"
+    center: "[TU DELFT](https://tudelft.nl) [SCUT](https://scut.edu.cn) [XAUAT](https://xauat.edu.cn) [ESL](https://eur.nl/esl) [OKRA](https://okra.nl) [GDUPI](https://www.gdupi.com)"
+    right: "January 2026 – December 2029"
+
+  reader-mode: false
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
+    title-block-style: none
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/tabler-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Gothic+Expanded+One&display=swap">
+        <script src="/pf-listing.js" defer></script>
+
+editor: visual

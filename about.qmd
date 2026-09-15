@@ -1,0 +1,234 @@
+---
+title: "About"
+---
+
+# The Project
+
+**PAST-FORWARD** aims to develop and implement innovative climate adaptation strategies and a design support system for adaptive Historic Urban Landscape (HUL) planning while integrating geospatial analysis, participatory planning, and adaptive urban landscape design.
+
+By leveraging living labs in the historic cities of Delft and Rotterdam (NL) and Xi’an and Guangzhou (CN), the project will test innovative approaches to resilience and future-oriented urban development.
+
+**PAST-FORWARD** ensures that adaptation strategies are socially inclusive, technically robust, and policy-relevant through stakeholder-driven co-design.
+
+**PAST-FORWARD** integrates work in China and the Netherlands to:
+
+1.  Develop a portfolio of adaptive design strategies for socio-ecologically inclusive, climate-proof HULs;
+
+2.  Create advanced open digital tools to inform, drive, and monitor these strategies, facilitating co-creative and participatory design processes;
+
+3.  Validate and implement these strategies through pilot projects serving as living labs, balancing immediate actions with long-term perspectives;
+
+4.  Provide regulatory recommendations to promote climate adaptation within governance frameworks.
+
+# The Cities
+
+::: pf-section-label
+Where we work
+:::
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(leaflet)
+
+cities <- data.frame(
+  name = c("Delft", "Rotterdam", "Xi'an", "Guangzhou"),
+  lat  = c(52.0116, 51.9244, 34.3416, 23.1291),
+  lng  = c(4.3571,  4.4777,  108.9398, 113.2644),
+  anchor = c("cities.qmd#delft", "cities.qmd#rotterdam",
+             "cities.qmd#xian", "cities.qmd#guangzhou")
+)
+
+cities$popup <- paste0(
+  "<strong>", cities$name, "</strong><br>",
+  "<a href='", cities$anchor, "'>View living lab &rarr;</a>"
+)
+
+leaflet(cities, width = "100%", height = "420px") |>
+  addProviderTiles(providers$CartoDB.Positron) |>
+  addCircleMarkers(
+    lng = ~lng, lat = ~lat,
+    popup = ~popup,
+    label = ~name,
+    radius = 8,
+    color = "#0F6E56",
+    fillColor = "#1D9E75",
+    fillOpacity = 0.9,
+    weight = 2
+  ) |>
+  fitBounds(min(cities$lng), min(cities$lat), max(cities$lng), max(cities$lat))
+```
+
+```{=html}
+<div class="pf-section">
+<div class="pf-grid">
+
+  <div class="pf-card">
+    <div class="pf-card-img">
+      <img src="images/city-delft.jpg" alt="Delft">
+    </div>
+    <div class="pf-card-body">
+      <p class="pf-country">Netherlands</p>
+      <p class="pf-city">Delft</p>
+      <div class="pf-tags">
+        <span class="pf-tag">Flooding</span>
+        <span class="pf-tag">Sea level rise</span>
+        <span class="pf-tag">Medieval canals</span>
+      </div>
+      <p class="pf-desc">Historic canal network and aging infrastructure face increasing pluvial flood risk and the challenge of climate retrofitting without compromising architectural integrity.</p>
+    </div>
+  </div>
+
+  <div class="pf-card">
+    <div class="pf-card-img">
+      <img src="images/city-rotterdam.jpg" alt="Rotterdam">
+    </div>
+    <div class="pf-card-body">
+      <p class="pf-country">Netherlands</p>
+      <p class="pf-city">Rotterdam</p>
+      <div class="pf-tags">
+        <span class="pf-tag">Flood resilience</span>
+        <span class="pf-tag">Social equity</span>
+        <span class="pf-tag">Post-war districts</span>
+      </div>
+      <p class="pf-desc">A global leader in climate adaptation, Rotterdam's historic districts test the integration of climate-proof solutions with socio-spatial equity challenges.</p>
+    </div>
+  </div>
+
+  <div class="pf-card">
+    <div class="pf-card-img">
+      <img src="images/city-xian.jpg" alt="Xi'an">
+    </div>
+    <div class="pf-card-body">
+      <p class="pf-country">China</p>
+      <p class="pf-city">Xi'an</p>
+      <div class="pf-tags">
+        <span class="pf-tag">Urban sprawl</span>
+        <span class="pf-tag">Flooding</span>
+        <span class="pf-tag">Ancient walls</span>
+      </div>
+      <p class="pf-desc">Home to the Terracotta Army and ancient city walls, Xi'an faces rapid urbanization pressure alongside flooding risk, requiring adaptation without cultural erosion.</p>
+    </div>
+  </div>
+
+  <div class="pf-card">
+    <div class="pf-card-img">
+      <img src="images/city-guangzhou.jpg" alt="Guangzhou">
+    </div>
+    <div class="pf-card-body">
+      <p class="pf-country">China</p>
+      <p class="pf-city">Guangzhou</p>
+      <div class="pf-tags">
+        <span class="pf-tag">Typhoons</span>
+        <span class="pf-tag">Sea level rise</span>
+        <span class="pf-tag">Pearl River Delta</span>
+      </div>
+      <p class="pf-desc">Located in the Pearl River Delta, Guangzhou's historic waterfront districts face typhoon-induced flooding and social inequalities in climate resilience access.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+```
+
+# Work Packages
+
+PAST-FORWARD is structured around four interconnected Work Packages (WPs), each addressing key research gaps in adapting Historic Urban Landscapes to climate change.
+
+```{=html}
+<div class="pf-wp-grid">
+
+  <a class="pf-wp-card" href="work-packages.qmd#wp1">
+    <p class="pf-wp-number">WP1</p>
+    <p class="pf-wp-title">Framework Development &amp; Integration</p>
+    <p class="pf-wp-lead">TU Delft &amp; SCUT</p>
+    <p class="pf-wp-desc">A shared framework and methodology that merges climate resilience with heritage preservation across the Dutch and Chinese case studies.</p>
+  </a>
+
+  <a class="pf-wp-card" href="work-packages.qmd#wp2">
+    <p class="pf-wp-number">WP2</p>
+    <p class="pf-wp-title">Data-Driven Adaptation Planning</p>
+    <p class="pf-wp-lead">TU Delft &amp; SCUT</p>
+    <p class="pf-wp-desc">A digital atlas, GIS-based toolkit, and web-based Decision Support System to inform and monitor adaptation planning.</p>
+  </a>
+
+  <a class="pf-wp-card" href="work-packages.qmd#wp3">
+    <p class="pf-wp-number">WP3</p>
+    <p class="pf-wp-title">Adaptive Design Principles</p>
+    <p class="pf-wp-lead">XAUAT &amp; TU Delft</p>
+    <p class="pf-wp-desc">Context-specific, heritage-sensitive design principles and strategies, validated through pilot projects in the living labs.</p>
+  </a>
+
+  <a class="pf-wp-card" href="work-packages.qmd#wp4">
+    <p class="pf-wp-number">WP4</p>
+    <p class="pf-wp-title">Regulatory Framework &amp; Stakeholder Engagement</p>
+    <p class="pf-wp-lead">Erasmus School of Law &amp; SCUT</p>
+    <p class="pf-wp-desc">Regulatory analysis and participatory co-design to embed climate adaptation into governance frameworks.</p>
+  </a>
+
+</div>
+```
+
+# The Consortium
+
+```{=html}
+<div class="pf-con-grid">
+
+  <div class="pf-con-card">
+    <div class="pf-logo"><img src="logos/tudelft.svg" alt="TU Delft logo"></div>
+    <div>
+      <p class="pf-con-name">TU Delft</p>
+      <p class="pf-con-full">Delft University of Technology</p>
+      <p class="pf-con-role">Lead applicant (NL) · WP1, WP2, WP3</p>
+    </div>
+  </div>
+
+  <div class="pf-con-card">
+    <div class="pf-logo"><img src="logos/scut.png" alt="SCUT logo"></div>
+    <div>
+      <p class="pf-con-name">SCUT</p>
+      <p class="pf-con-full">South China University of Technology</p>
+      <p class="pf-con-role">Lead applicant (CN) · WP1, WP2, WP4</p>
+    </div>
+  </div>
+
+  <div class="pf-con-card">
+    <div class="pf-logo"><img src="logos/xauat.svg" alt="XAUAT logo"></div>
+    <div>
+      <p class="pf-con-name">XAUAT</p>
+      <p class="pf-con-full">Xi'an University of Architecture and Technology</p>
+      <p class="pf-con-role">Co-applicant (CN) · WP3</p>
+    </div>
+  </div>
+
+  <div class="pf-con-card">
+    <div class="pf-logo"><img src="logos/esl.svg" alt="Erasmus University Rotterdam logo"></div>
+    <div>
+      <p class="pf-con-name">Erasmus School of Law</p>
+      <p class="pf-con-full">Erasmus University Rotterdam</p>
+      <p class="pf-con-role">Co-applicant (NL) · WP4</p>
+    </div>
+  </div>
+
+  <div class="pf-con-card">
+    <div class="pf-logo"><img src="logos/okra.svg" alt="OKRA logo"></div>
+    <div>
+      <p class="pf-con-name">OKRA</p>
+      <p class="pf-con-full">OKRA Landscape Architects</p>
+      <p class="pf-con-role">Collaboration partner (NL) · WP3</p>
+    </div>
+  </div>
+
+  <div class="pf-con-card">
+    <div class="pf-logo"><img src="logos/gdupi.jpg" alt="GDUPI logo"></div>
+    <div>
+      <p class="pf-con-name">GDUPI</p>
+      <p class="pf-con-full">Guangdong Urban-Rural Planning and Design Research Institute</p>
+      <p class="pf-con-role">Collaboration partner (CN) · WP2, WP3</p>
+    </div>
+  </div>
+
+</div>
+```

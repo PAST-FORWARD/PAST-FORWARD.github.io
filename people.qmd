@@ -1,0 +1,198 @@
+---
+title: "People"
+---
+
+# The Team
+
+```{=html}
+<div class="pf-section pf-section-violet">
+
+  <p class="pf-section-label">TU Delft</p>
+  <div class="pf-people-grid">
+
+    <div class="pf-person-card">
+      <img src="img/people/nijhuis.jpg" alt="Steffen Nijhuis" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Steffen Nijhuis</p>
+        <p class="pf-person-role">PI · Project coordinator</p>
+        <p class="pf-person-inst">TU Delft</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/cannatella.jpg" alt="Daniele Cannatella" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Daniele Cannatella</p>
+        <p class="pf-person-role">WP2 & WP3 Lead</p>
+        <p class="pf-person-inst">TU Delft</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <div class="pf-avatar" style="background:#dce8f5;color:#0C447C;">PhD</div>
+      <div>
+        <p class="pf-person-name">Vacancy</p>
+        <p class="pf-person-role">PhD Researcher</p>
+        <p class="pf-person-inst">TU Delft</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="pf-section-label">South China University of Technology</p>
+  <div class="pf-people-grid">
+
+    <div class="pf-person-card">
+      <img src="img/people/sun.jpg" alt="Yimin Sun" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Yimin Sun</p>
+        <p class="pf-person-role">PI · Project coordinator</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/li.jpg" alt="Minzhi Li" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Minzhi Li</p>
+        <p class="pf-person-role">WP4 Lead · Researcher</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/wang.jpg" alt="Chengfang Wang" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Chengfang Wang</p>
+        <p class="pf-person-role">WP2 CN Lead · Researcher</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/huang.jpg" alt="Zujian Huang" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Zujian Huang</p>
+        <p class="pf-person-role">Senior Researcher</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/zhang.jpg" alt="Fuxin Zhang" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Fuxin Zhang</p>
+        <p class="pf-person-role">Senior Researcher</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/chen.jpg" alt="Bilin Chen" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Bilin Chen</p>
+        <p class="pf-person-role">Researcher</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <div class="pf-avatar" style="background:#dce8f5;color:#0C447C;">PD</div>
+      <div>
+        <p class="pf-person-name">Vacancy × 2</p>
+        <p class="pf-person-role">Postdoc + PhD</p>
+        <p class="pf-person-inst">SCUT</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="pf-section-label">Xi'an University of Architecture and Technology</p>
+  <div class="pf-people-grid">
+
+    <div class="pf-person-card">
+      <img src="img/people/liu.jpg" alt="Kaixi Liu" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Kaixi Liu</p>
+        <p class="pf-person-role">WP3 CN Lead · Researcher</p>
+        <p class="pf-person-inst">XAUAT</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="pf-section-label">Erasmus School of Law</p>
+  <div class="pf-people-grid">
+
+    <div class="pf-person-card">
+      <img src="img/people/reins.jpg" alt="Leonie Reins" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Leonie Reins</p>
+        <p class="pf-person-role">WP4 Lead · Researcher</p>
+        <p class="pf-person-inst">ESL</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/dejong.jpg" alt="Martin de Jong" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Martin de Jong</p>
+        <p class="pf-person-role">WP4 Lead · Researcher</p>
+        <p class="pf-person-inst">ESL</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <div class="pf-avatar" style="background:#dce8f5;color:#0C447C;">PD</div>
+      <div>
+        <p class="pf-person-name">Vacancy</p>
+        <p class="pf-person-role">Postdoc Researcher</p>
+        <p class="pf-person-inst">ESL</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="pf-section-label">OKRA &amp; GDUPI</p>
+  <div class="pf-people-grid">
+
+    <div class="pf-person-card">
+      <img src="img/people/knuijt.jpg" alt="Martin Knuijt" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Martin Knuijt</p>
+        <p class="pf-person-role">Designer</p>
+        <p class="pf-person-inst">OKRA</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/luo.jpg" alt="Yong Luo" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Yong Luo</p>
+        <p class="pf-person-role">Senior Researcher</p>
+        <p class="pf-person-inst">GDUPI</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/zheng.jpg" alt="Zeshuang Zheng" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Zeshuang Zheng</p>
+        <p class="pf-person-role">Senior Designer</p>
+        <p class="pf-person-inst">GDUPI</p>
+      </div>
+    </div>
+
+    <div class="pf-person-card">
+      <img src="img/people/ruan.jpg" alt="Haode Ruan" class="pf-avatar">
+      <div>
+        <p class="pf-person-name">Haode Ruan</p>
+        <p class="pf-person-role">Senior Designer</p>
+        <p class="pf-person-inst">GDUPI</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+```

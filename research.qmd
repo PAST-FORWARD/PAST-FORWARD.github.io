@@ -1,0 +1,52 @@
+---
+title: "Research"
+listing:
+  id: research-outputs-listing
+  contents: research-outputs
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+  filter-ui: true
+  sort-ui: false
+  feed: true
+---
+
+```{=html}
+<div class="pf-hub-grid">
+
+  <a class="pf-hub-card" href="publications.qmd">
+    <i class="pf-hub-icon ti ti-books"></i>
+    <p class="pf-hub-title">Publications</p>
+    <p class="pf-hub-desc">Peer-reviewed papers, conference contributions, and reports produced by the consortium.</p>
+  </a>
+
+  <a class="pf-hub-card" href="datasets.qmd">
+    <i class="pf-hub-icon ti ti-database"></i>
+    <p class="pf-hub-title">Datasets</p>
+    <p class="pf-hub-desc">Open data on climate vulnerabilities and spatial opportunities, including the WP2 Digital Atlas.</p>
+  </a>
+
+  <a class="pf-hub-card" href="tools-data.qmd">
+    <i class="pf-hub-icon ti ti-tool"></i>
+    <p class="pf-hub-title">Tools &amp; Data</p>
+    <p class="pf-hub-desc">The GIS-based assessment toolbox and web-based Decision Support System (DSS) developed in WP2.</p>
+  </a>
+
+  <a class="pf-hub-card" href="deliverables.qmd">
+    <i class="pf-hub-icon ti ti-clipboard-check"></i>
+    <p class="pf-hub-title">Deliverables</p>
+    <p class="pf-hub-desc">Official project deliverables and milestone reports submitted to the funding programme.</p>
+  </a>
+
+</div>
+```
+
+::: pf-aim
+PAST-FORWARD's research outputs — from academic publications to open datasets and digital tools — are gathered here as they become available throughout the project.
+:::
+
+## Latest research outputs
+
+::: {#research-outputs-listing}
+:::

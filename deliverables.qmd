@@ -1,0 +1,20 @@
+---
+title: "Deliverables"
+listing:
+  id: deliverables-listing
+  contents: research-outputs/deliverables
+  sort: "date desc"
+  type: default
+  categories: false
+  fields: [date, title, description]
+  filter-ui: true
+  sort-ui: false
+  feed: true
+---
+
+::: pf-aim
+Official project deliverables and milestone reports submitted to the NWO–NSFC funding programme, tracked against the project's four <a href="work-packages.qmd">Work Packages</a> and listed here as they are submitted and approved, with no limit on how many appear or how far back they go.
+:::
+
+::: {#deliverables-listing data-pf-icon="ti-clipboard-check"}
+:::
