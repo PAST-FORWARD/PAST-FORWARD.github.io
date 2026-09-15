@@ -1,0 +1,16 @@
+---
+title: "Contact us"
+---
+
+::: pf-aim
+Questions about PAST-FORWARD, the living labs, or collaboration opportunities? Reach out to the project team below.
+:::
+
+```{=html}
+<div class="pf-empty-state">
+  <i class="pf-empty-icon ti ti-mail"></i>
+  <p class="pf-empty-title">Contact details coming soon</p>
+  <p class="pf-empty-desc">In the meantime, see the <a href="people.qmd">People</a> page for the project's leads at each consortium partner, or visit the partner institutions linked in the footer below.</p>
+  <a class="pf-btn pf-btn-outline" href="people.qmd">View the team &rarr;</a>
+</div>
+```

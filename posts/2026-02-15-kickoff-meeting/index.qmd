@@ -6,6 +6,5 @@ author:
   - name: Daniele Cannatella
     affiliation: TU Delft
 categories: [consortium, events, WP1]
-image: kick-off.jpg          # relative to this post's folder
 draft: false
 ---

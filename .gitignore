@@ -10,3 +10,8 @@
 .RData
 .Rdata
 *.Rproj.bak
+
+# Raw/unused source assets (originals kept locally, not needed in the repo)
+/pics/
+
+**/*.quarto_ipynb
