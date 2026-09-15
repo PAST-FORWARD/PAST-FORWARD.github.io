@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>PAST-FORWARD</title>
+<link>https://PAST-FORWARD.github.io/research.html</link>
+<atom:link href="https://PAST-FORWARD.github.io/research.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Tue, 30 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>GIS assessment toolbox — first prototype</title>
+  <dc:creator>WP2 team</dc:creator>
+  <link>https://PAST-FORWARD.github.io/research-outputs/tools-data/gis-toolbox-prototype.html</link>
+  <description><![CDATA[ 
+
+<header id="title-block-header">
+
+<p class="author">WP2 team</p>
+
+<p class="date">2026-07-01</p>
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Placeholder entry used to preview the “Latest research outputs” listing on the Research page. Replace with a link to the live tool when available.</p>
+</div>
+</div>
+<p>Tool description and access link go here once the prototype is public.</p>
+
+
+
+ ]]></description>
+  <category>Tools &amp; Data</category>
+  <guid>https://PAST-FORWARD.github.io/research-outputs/tools-data/gis-toolbox-prototype.html</guid>
+  <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>WP2 Digital Atlas — pilot release</title>
+  <dc:creator>WP2 team</dc:creator>
+  <link>https://PAST-FORWARD.github.io/research-outputs/datasets/wp2-digital-atlas-pilot.html</link>
+  <description><![CDATA[ 
+
+<header id="title-block-header">
+
+<p class="author">WP2 team</p>
+
+<p class="date">2026-05-20</p>
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Placeholder entry used to preview the “Latest research outputs” listing on the Research page. Replace with the real dataset release when available.</p>
+</div>
+</div>
+<p>Dataset description, access link, and licence information go here once released.</p>
+
+
+
+ ]]></description>
+  <category>Datasets</category>
+  <guid>https://PAST-FORWARD.github.io/research-outputs/datasets/wp2-digital-atlas-pilot.html</guid>
+  <pubDate>Tue, 19 May 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A baseline assessment of climate vulnerability in the four living labs</title>
+  <dc:creator>Daniele Cannatella</dc:creator>
+  <link>https://PAST-FORWARD.github.io/research-outputs/publications/climate-vulnerability-baseline.html</link>
+  <description><![CDATA[ 
+
+<header id="title-block-header">
+
+<p class="author">Daniele Cannatella</p>
+
+<p class="date">2026-03-10</p>
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Placeholder entry used to preview the “Latest research outputs” listing on the Research page. Replace with a real publication when available.</p>
+</div>
+</div>
+<p>Full abstract and citation details go here once the paper is submitted / published.</p>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://PAST-FORWARD.github.io/research-outputs/publications/climate-vulnerability-baseline.html</guid>
+  <pubDate>Mon, 09 Mar 2026 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

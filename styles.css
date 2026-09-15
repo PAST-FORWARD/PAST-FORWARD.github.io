@@ -1,0 +1,1063 @@
+/* ============================================================
+   PAST-FORWARD — global styles
+   Palette: Red / Gray
+   Accent (all text, borders, icons):  #E43D12
+   Page bg:                            #EBE9E1
+   Section alt bg:                     #DEDBD1  (slightly darker gray)
+   Neutral divider (non-box hairlines): rgba(120,116,108,0.25)
+   Body font:   Archivo
+   Heading / box-title font: Special Gothic Expanded One
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   Base
+   ------------------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+
+body {
+  background: #EBE9E1 !important;
+  padding-top: 72px !important;
+  overflow-x: hidden !important;
+  font-family: 'Archivo', sans-serif;
+  color: #E43D12;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Gothic Expanded One', sans-serif !important;
+  color: #E43D12;
+  font-weight: 400;
+  font-synthesis: none;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+/* box-level titles (cards, pillars, listings) share the heading font
+   even when they're not literal <hN> elements */
+.pf-wp-title,
+.pf-hub-title,
+.pf-con-name,
+.pf-person-name,
+.pf-empty-title,
+.pf-pillar-title,
+.pf-city,
+.pf-stat-label,
+.quarto-listing .listing-title {
+  font-family: 'Special Gothic Expanded One', sans-serif !important;
+  color: #E43D12;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+/* ------------------------------------------------------------
+   Floating pill navbar
+   ------------------------------------------------------------ */
+
+.navbar {
+  background: #EBE9E1 !important;
+  border-radius: 0px !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+  z-index: 1030 !important;
+  padding: 8px 24px !important;
+  border: none !important;
+}
+
+.navbar-brand-container {
+  margin: 0 !important;
+}
+
+.navbar-brand {
+  color: #E43D12 !important;
+  font-family: 'Special Gothic Expanded One', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 21px !important;
+  letter-spacing: 0.04em !important;
+  padding-right: 12px !important;
+}
+
+.navbar-collapse {
+  margin-left: auto !important;
+  flex-grow: 0 !important;
+  justify-content: flex-end !important;
+}
+
+.navbar-nav .nav-link {
+  color: #E43D12 !important;
+  font-family: 'Special Gothic Expanded One', sans-serif !important;
+  font-size: 15px !important;
+  border-radius: 0px !important;
+  padding: 6px 12px !important;
+  transition: background 0.15s, color 0.15s, border-color 0.15s !important;
+  border: 1.5px solid transparent !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background: transparent !important;
+  border-color: #E43D12 !important;
+  color: #E43D12 !important;
+  font-weight: 700;
+}
+
+.navbar-nav:first-of-type {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+.navbar-nav.ms-auto .nav-item:last-child .nav-link {
+  background: #E43D12 !important;
+  color: #EBE9E1 !important;
+  font-weight: 700 !important;
+  padding: 6px 18px !important;
+  margin-left: 0 !important;
+}
+
+.navbar-nav.ms-auto .nav-item:last-child .nav-link:hover {
+  background: #E43D12 !important;
+  color: #EBE9E1 !important;
+}
+
+.navbar-toggler {
+  border-color: #E43D12 !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1) !important;
+}
+
+/* ------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------ */
+
+.nav-footer {
+  background: #E43D12 !important;
+  color: #EBE9E1 !important;
+  border-top: none !important;
+  padding: 24px 32px !important;
+  font-size: 15px !important;
+}
+
+.nav-footer a {
+  color: #EBE9E1 !important;
+  text-decoration: none !important;
+}
+
+.nav-footer a:hover {
+  color: #EBE9E1 !important;
+  opacity: 0.8;
+}
+
+.nav-footer-center,
+.nav-footer-left,
+.nav-footer-right {
+  color: #EBE9E1 !important;
+}
+
+.nav-footer-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-footer-center p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.nav-footer-center a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-footer-center img {
+  height: 24px;
+  width: auto;
+  max-width: 90px;
+  object-fit: contain;
+  vertical-align: middle;
+  background: #EBE9E1;
+  padding: 4px 8px;
+  border-radius: 0px;
+  transition: opacity 0.15s ease;
+}
+
+.nav-footer-center a:hover img {
+  opacity: 0.85;
+}
+
+#title-block-header,
+.quarto-title-block {
+  display: none !important;
+}
+
+/* ------------------------------------------------------------
+   Page sections (full-width breakout)
+   ------------------------------------------------------------ */
+
+.pf-section {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0;
+  padding: 40px calc((100vw - 860px) / 2);
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+.pf-section-violet { background: #DEDBD1; }
+.pf-section-lime   { background: #E43D12; }
+
+.pf-section-header {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #E43D12;
+  margin: 0 0 16px;
+}
+
+.pf-section-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #E43D12;
+  margin: 1.5rem 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(120,116,108,0.3);
+}
+
+.pf-section-label:first-child {
+  margin-top: 0;
+}
+
+/* ------------------------------------------------------------
+   City cards
+   ------------------------------------------------------------ */
+
+.pf-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .pf-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.pf-card {
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.pf-card-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 24px auto 0;
+}
+
+.pf-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.pf-card-img-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #E43D12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #E43D12;
+}
+
+.pf-card-body { padding: 14px 16px 20px; }
+
+.pf-country {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #E43D12;
+  margin: 0 0 2px;
+}
+
+.pf-city {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.pf-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.pf-tag {
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #E43D12;
+  color: #E43D12;
+}
+
+.pf-desc {
+  font-size: 11px;
+  color: #E43D12;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   Work package boxes
+   ------------------------------------------------------------ */
+
+.pf-wp-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+  .pf-wp-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 500px) {
+  .pf-wp-grid { grid-template-columns: 1fr; }
+}
+
+.pf-wp-card {
+  display: block;
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+  padding: 18px;
+  text-decoration: none;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.pf-wp-card:hover {
+  border-color: #E43D12;
+  box-shadow: 0 4px 16px rgba(228,61,18,0.15);
+}
+
+.pf-wp-number {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #E43D12;
+  margin: 0 0 6px;
+}
+
+.pf-wp-title {
+  font-size: 15px;
+  margin: 0 0 6px;
+  line-height: 1.3;
+}
+
+.pf-wp-lead {
+  font-size: 11px;
+  color: #E43D12;
+  margin: 0 0 10px;
+}
+
+.pf-wp-desc {
+  font-size: 12px;
+  color: #E43D12;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   Hub pages (landing page -> linked subsection boxes)
+   ------------------------------------------------------------ */
+
+.pf-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+  .pf-hub-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 500px) {
+  .pf-hub-grid { grid-template-columns: 1fr; }
+}
+
+.pf-hub-card {
+  display: block;
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+  padding: 22px 18px;
+  text-decoration: none;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.pf-hub-card:hover {
+  border-color: #E43D12;
+  box-shadow: 0 4px 16px rgba(228,61,18,0.15);
+}
+
+.pf-hub-icon {
+  display: block;
+  font-size: 26px;
+  line-height: 1;
+  color: #E43D12;
+  margin-bottom: 12px;
+}
+
+.pf-hub-title {
+  font-size: 15px;
+  margin: 0 0 6px;
+}
+
+.pf-hub-desc {
+  font-size: 12px;
+  color: #E43D12;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   Empty-state placeholders (subsection pages with no content yet)
+   ------------------------------------------------------------ */
+
+.pf-empty-state {
+  max-width: 480px;
+  margin: 3rem auto;
+  text-align: center;
+  padding: 40px 24px;
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+}
+
+.pf-empty-icon {
+  display: block;
+  font-size: 32px;
+  color: #E43D12;
+  margin-bottom: 14px;
+}
+
+.pf-empty-title {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+
+.pf-empty-desc {
+  font-size: 12.5px;
+  color: #E43D12;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.pf-empty-desc a { color: #E43D12; font-weight: 600; }
+
+/* ------------------------------------------------------------
+   Work package detail page (work-packages.qmd)
+   ------------------------------------------------------------ */
+
+.pf-wp-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 3rem;
+}
+
+.pf-wp-nav a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #E43D12;
+  background: transparent;
+  border: 1px solid #E43D12;
+  padding: 7px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.pf-wp-nav a:hover { opacity: 0.7; }
+
+.pf-wp-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(120,116,108,0.3);
+}
+
+.pf-wp-section:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.pf-wp-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 1.25rem;
+  scroll-margin-top: 96px;
+}
+
+.pf-wp-badge {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #E43D12;
+  color: #E43D12;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.pf-wp-heading {
+  font-size: 1.35rem;
+  margin: 4px 0 4px;
+  line-height: 1.3;
+}
+
+.pf-wp-leadline {
+  font-size: 12px;
+  color: #E43D12;
+  margin: 0;
+  font-style: italic;
+}
+
+.pf-wp-body {
+  max-width: 760px;
+  color: #E43D12;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.pf-wp-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 700px) {
+  .pf-wp-columns { grid-template-columns: 1fr; }
+}
+
+.pf-wp-col {
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+  padding: 18px 20px;
+}
+
+.pf-wp-col strong {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #E43D12;
+  margin-bottom: 10px;
+}
+
+.pf-wp-col ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 12.5px;
+  color: #E43D12;
+  line-height: 1.6;
+}
+
+.pf-wp-col li { margin-bottom: 6px; }
+
+.pf-wp-col ul ul {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #E43D12;
+}
+
+.pf-wp-footer {
+  max-width: 900px;
+  margin: 1rem auto 0;
+}
+
+/* ------------------------------------------------------------
+   Consortium cards
+   ------------------------------------------------------------ */
+
+.pf-con-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+  .pf-con-grid { grid-template-columns: 1fr; }
+}
+
+.pf-con-card {
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.pf-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #E43D12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.pf-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.pf-con-name { font-size: 12px; margin: 0 0 2px; line-height: 1.3; }
+.pf-con-full { font-size: 10px; color: #E43D12; margin: 0 0 4px; line-height: 1.4; }
+.pf-con-role { font-size: 10px; color: #E43D12; margin: 0; line-height: 1.5; }
+
+/* ------------------------------------------------------------
+   People cards
+   ------------------------------------------------------------ */
+
+.pf-people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.pf-person-card {
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-radius: 0px;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.pf-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  border: 1px solid #E43D12;
+  color: #E43D12;
+}
+
+.pf-person-name { font-size: 11px; margin: 0 0 2px; line-height: 1.3; }
+.pf-person-role { font-size: 10px; color: #E43D12; margin: 0 0 2px; line-height: 1.4; }
+.pf-person-inst { font-size: 10px; color: #E43D12; margin: 0; }
+
+/* ------------------------------------------------------------
+   Homepage buttons
+   ------------------------------------------------------------ */
+
+.pf-btn {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid #E43D12;
+  transition: opacity 0.15s;
+}
+
+.pf-btn:hover { opacity: 0.8; }
+.pf-btn-primary   { background: #E43D12; color: #EBE9E1; }
+.pf-btn-secondary { background: transparent; color: #E43D12; }
+.pf-btn-outline   { background: transparent; color: #E43D12; border: 2px solid #E43D12; }
+
+/* ------------------------------------------------------------
+   Homepage stats strip
+   ------------------------------------------------------------ */
+
+.pf-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.pf-stat {
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid #E43D12;
+  padding: 16px 20px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.pf-stat-number { font-size: 28px; font-weight: 700; color: #E43D12; margin: 0 0 2px; line-height: 1; }
+.pf-stat-label  { font-size: 13px; margin: 0; line-height: 1.4; }
+
+/* ------------------------------------------------------------
+   Title block banner (unused now that title-block is hidden site-wide,
+   kept only in case you re-enable it on a page)
+   ------------------------------------------------------------ */
+
+.quarto-title-block .quarto-title-banner {
+  background-color: #E43D12 !important;
+}
+
+.quarto-title-block .title {
+  color: #EBE9E1 !important;
+  font-weight: 400 !important;
+}
+
+.quarto-title-block .subtitle {
+  color: #EBE9E1 !important;
+  font-size: 13px !important;
+}
+
+/* ------------------------------------------------------------
+   Homepage hero (crossfading banner)
+   ------------------------------------------------------------ */
+
+body:has(.pf-hero) {
+  padding-top: 48px !important;
+}
+
+.pf-hero {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+  min-height: calc(100vh - 48px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pf-hero-bg { position: absolute; inset: 0; z-index: 0; }
+
+.pf-hero-bg-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: pf-hero-crossfade 30s infinite;
+}
+
+.pf-hero-bg-img:nth-child(1) { animation-delay: 0s; }
+.pf-hero-bg-img:nth-child(2) { animation-delay: 6s; }
+.pf-hero-bg-img:nth-child(3) { animation-delay: 12s; }
+.pf-hero-bg-img:nth-child(4) { animation-delay: 18s; }
+.pf-hero-bg-img:nth-child(5) { animation-delay: 24s; }
+
+@keyframes pf-hero-crossfade {
+  0%   { opacity: 0; }
+  3%   { opacity: 1; }
+  20%  { opacity: 1; }
+  23%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.pf-hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(68, 57, 70, 0.55);
+}
+
+.pf-hero-content { position: relative; z-index: 1; color: #EBE9E1; text-align: center; max-width: 620px; padding: 0 24px; }
+.pf-hero-logo { display: block; height: 72px; width: auto; margin: 0 auto 1.25rem; }
+.pf-hero-eyebrow { font-size: 0.8rem; letter-spacing: 0.04em; opacity: 0.9; margin-bottom: 0.5rem; color: #EBE9E1; }
+.pf-hero-title { font-family: 'Special Gothic Expanded One', sans-serif; font-size: 2.4rem; margin: 0 0 0.5rem; color: #E43D12; font-weight: 400; }
+.pf-hero-subtitle { font-size: 1rem; opacity: 0.9; margin-bottom: 1.5rem; color: #EBE9E1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pf-hero-bg-img { animation: none; opacity: 0; }
+  .pf-hero-bg-img:first-child { opacity: 1; }
+}
+
+/* ------------------------------------------------------------
+   Homepage aim / intro text
+   ------------------------------------------------------------ */
+
+.pf-aim { max-width: 640px; margin: 3rem auto; text-align: center; color: #E43D12; }
+.pf-readmore { display: inline-block; margin-top: 0.5rem; font-weight: 600; color: #E43D12; }
+
+/* ------------------------------------------------------------
+   Homepage pillars ("What we do")
+   ------------------------------------------------------------ */
+
+.pf-pillars { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+
+.pf-pillar {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #E43D12;
+}
+
+.pf-icon {
+  display: block;
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  color: #E43D12;
+}
+
+.pf-pillar-title { font-size: 13px; margin: 0; }
+
+/* ------------------------------------------------------------
+   Homepage living-lab city links
+   ------------------------------------------------------------ */
+
+.pf-cities { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+
+.pf-citylink { display: block; text-decoration: none; color: inherit; text-align: center; }
+.pf-citylink img {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+  display: block;
+}
+.pf-citylink span { font-size: 13px; font-weight: 600; color: #E43D12; }
+
+/* ------------------------------------------------------------
+   Homepage partner strip
+   ------------------------------------------------------------ */
+
+.pf-partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(120,116,108,0.3);
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #E43D12;
+}
+
+.pf-partners a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #E43D12;
+  text-decoration: none;
+}
+
+.pf-partners a:hover {
+  opacity: 0.7;
+}
+
+.pf-partners img {
+  height: 32px;
+  width: auto;
+  max-width: 100px;
+  object-fit: contain;
+}
+
+/* ------------------------------------------------------------
+   News listing (homepage)
+   ------------------------------------------------------------ */
+
+.quarto-listing .listing-description {
+  color: #E43D12;
+}
+
+.quarto-post .body a {
+  color: #E43D12 !important;
+}
+
+.quarto-post .metadata {
+  flex-basis: 110px !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.quarto-post .body {
+  flex-basis: 0 !important;
+  flex-grow: 1 !important;
+}
+
+.quarto-listing .listing-title {
+  font-size: 16px !important;
+}
+
+.quarto-post .metadata .listing-date {
+  color: #E43D12;
+  font-family: 'Special Gothic Expanded One', sans-serif !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.quarto-post .listing-item-img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90px;
+  background: transparent;
+  border: 1px solid #E43D12;
+}
+
+.pf-listing-icon {
+  font-size: 28px;
+  line-height: 1;
+  color: #E43D12;
+}
+
+/* ------------------------------------------------------------
+   Research outputs listing — search box & category filters
+   ------------------------------------------------------------ */
+
+.quarto-listing-filter {
+  width: 220px;
+}
+
+.quarto-listing-filter .input-group-text {
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-right: none;
+  border-radius: 0;
+  color: #E43D12;
+}
+
+.quarto-listing-filter .search.form-control {
+  background: transparent;
+  border: 1px solid #E43D12;
+  border-left: none;
+  border-radius: 0;
+  color: #E43D12;
+  box-shadow: none;
+}
+
+.quarto-listing-filter .search.form-control::placeholder {
+  color: rgba(228, 61, 18, 0.55);
+}
+
+.quarto-listing-filter .search.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #E43D12;
+}
+
+.quarto-listing-category-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.quarto-listing-category {
+  border-top: 1px solid rgba(228, 61, 18, 0.35);
+  padding-top: 10px;
+}
+
+.quarto-listing-category .category {
+  color: #E43D12;
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+  padding: 4px 0;
+  border: none;
+  opacity: 0.65;
+  transition: opacity 0.15s;
+}
+
+.quarto-listing-category .category:hover {
+  opacity: 1;
+}
+
+.quarto-listing-category .category.active {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.quarto-listing-category .quarto-category-count {
+  color: rgba(228, 61, 18, 0.55);
+  font-weight: 400;
+}
+
+/* inline category tags shown on each listing card */
+.listing-category {
+  color: #E43D12 !important;
+  border: 1px solid #E43D12 !important;
+  border-radius: 0 !important;
+  background: transparent;
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 0.02em;
+  transition: background 0.15s, color 0.15s;
+}
+
+.listing-category:hover {
+  background: #E43D12;
+  color: #EBE9E1 !important;
+}

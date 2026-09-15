@@ -1,0 +1,44 @@
+[
+  {
+    "listing": "/datasets.html",
+    "items": [
+      "/research-outputs/datasets/wp2-digital-atlas-pilot.html"
+    ]
+  },
+  {
+    "listing": "/tools-data.html",
+    "items": [
+      "/research-outputs/tools-data/gis-toolbox-prototype.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/research-outputs/publications/climate-vulnerability-baseline.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2026-02-15-kickoff-meeting/index.html"
+    ]
+  },
+  {
+    "listing": "/deliverables.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research-outputs/tools-data/gis-toolbox-prototype.html",
+      "/research-outputs/datasets/wp2-digital-atlas-pilot.html",
+      "/research-outputs/publications/climate-vulnerability-baseline.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2026-02-15-kickoff-meeting/index.html"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>PAST-FORWARD</title>
+<link>https://PAST-FORWARD.github.io/news.html</link>
+<atom:link href="https://PAST-FORWARD.github.io/news.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sat, 14 Feb 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Kick-off meeting in Delft</title>
+  <dc:creator>Daniele Cannatella</dc:creator>
+  <link>https://PAST-FORWARD.github.io/posts/2026-02-15-kickoff-meeting/</link>
+  <description><![CDATA[ 
+
+<header id="title-block-header">
+
+<p class="author">Daniele Cannatella</p>
+
+<p class="date">2026-02-15</p>
+</header>
+
+
+
+
+
+ ]]></description>
+  <category>consortium</category>
+  <category>events</category>
+  <category>WP1</category>
+  <guid>https://PAST-FORWARD.github.io/posts/2026-02-15-kickoff-meeting/</guid>
+  <pubDate>Sat, 14 Feb 2026 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
