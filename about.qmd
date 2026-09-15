@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-# The Project
+## The Project
 
 **PAST-FORWARD** aims to develop and implement innovative climate adaptation strategies and a design support system for adaptive Historic Urban Landscape (HUL) planning while integrating geospatial analysis, participatory planning, and adaptive urban landscape design.
 
@@ -20,7 +20,7 @@ By leveraging living labs in the historic cities of Delft and Rotterdam (NL) and
 
 4.  Provide regulatory recommendations to promote climate adaptation within governance frameworks.
 
-# The Cities
+## The Cities
 
 ::: pf-section-label
 Where we work
@@ -152,7 +152,7 @@ leaflet(
 </div>
 ```
 
-# Work Packages
+## Work Packages
 
 PAST-FORWARD is structured around four interconnected Work Packages (WPs), each addressing key research gaps in adapting Historic Urban Landscapes to climate change.
 
@@ -190,7 +190,7 @@ PAST-FORWARD is structured around four interconnected Work Packages (WPs), each 
 </div>
 ```
 
-# The Consortium
+## The Consortium
 
 ```{=html}
 <div class="pf-con-grid">
