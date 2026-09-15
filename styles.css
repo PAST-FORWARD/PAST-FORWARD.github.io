@@ -1120,3 +1120,53 @@ body:has(.pf-hero) {
   background: #E43D12;
   color: #EBE9E1 !important;
 }
+
+/* ------------------------------------------------------------
+   Leaflet map (About page — living-lab locator)
+   ------------------------------------------------------------ */
+
+/* clustered "aggregated" markers, red instead of the default
+   green/yellow/orange traffic-light scale */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(228, 61, 18, 0.35);
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: rgba(228, 61, 18, 0.85);
+}
+
+.marker-cluster span {
+  color: #EBE9E1;
+  font-weight: 700;
+}
+
+/* popups: same grey box / red outline / red text as the rest of the site */
+.leaflet-popup-content-wrapper {
+  background: #EBE9E1;
+  border: 1px solid #E43D12;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.leaflet-popup-content {
+  color: #E43D12;
+  margin: 12px 14px;
+}
+
+.leaflet-popup-content a {
+  color: #E43D12;
+  font-weight: 700;
+}
+
+.leaflet-popup-tip {
+  background: #EBE9E1;
+  box-shadow: none;
+}
+
+.leaflet-popup-close-button {
+  color: #E43D12 !important;
+}
