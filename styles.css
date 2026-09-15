@@ -129,6 +129,21 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #E43D12 !important;
 }
 
+@media (max-width: 420px) {
+  /* Free up space for the brand name by dropping the redundant logo
+     mark next to it (the hamburger + wordmark are enough to identify
+     the site at this width). */
+  .navbar-brand-logo {
+    display: none !important;
+  }
+
+  .navbar-brand {
+    font-size: 16px !important;
+    letter-spacing: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 .navbar-toggler-icon {
   filter: invert(1) !important;
 }
@@ -855,6 +870,10 @@ body:has(.pf-hero) {
 
 .pf-pillars { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
 
+@media (max-width: 700px) {
+  .pf-pillars { grid-template-columns: repeat(2, 1fr); }
+}
+
 .pf-pillar {
   text-align: center;
   padding: 1rem;
@@ -878,6 +897,10 @@ body:has(.pf-hero) {
    ------------------------------------------------------------ */
 
 .pf-cities { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+
+@media (max-width: 700px) {
+  .pf-cities { grid-template-columns: repeat(2, 1fr); }
+}
 
 .pf-citylink { display: block; text-decoration: none; color: inherit; text-align: center; }
 .pf-citylink img {
@@ -939,10 +962,12 @@ body:has(.pf-hero) {
   color: #E43D12 !important;
 }
 
-.quarto-post .metadata {
-  flex-basis: 110px !important;
-  flex-grow: 0 !important;
-  flex-shrink: 0 !important;
+@media (min-width: 768px) {
+  .quarto-post .metadata {
+    flex-basis: 110px !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+  }
 }
 
 .quarto-post .body {
@@ -975,6 +1000,15 @@ body:has(.pf-hero) {
   font-size: 28px;
   line-height: 1;
   color: #E43D12;
+}
+
+@media (max-width: 767.98px) {
+  /* Quarto's default mobile listing layout stacks the thumbnail last
+     (after title/description/date); put the category icon first instead
+     and shrink it, since it's a small glyph rather than a photo. */
+  .quarto-post .thumbnail { order: -1; }
+  .quarto-post .listing-item-img-placeholder { min-height: 56px; }
+  .pf-listing-icon { font-size: 22px; }
 }
 
 /* ------------------------------------------------------------
